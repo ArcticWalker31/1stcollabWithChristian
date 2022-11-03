@@ -61,7 +61,7 @@ public class GameLauncher : MonoBehaviourPunCallbacks
         {
 
             //PlayerNameManager.LoadPlayer();
-            MenuManager.Instance.OpenMenu("Main");
+            MenuManager.Instance.OpenMenu("MainMenu");
             valuables.SetActive(true);
             MenuButtons.SetActive(true);
 
@@ -161,7 +161,7 @@ public class GameLauncher : MonoBehaviourPunCallbacks
 
     public override void OnLeftRoom()
     {
-        MenuManager.Instance.OpenMenu("main");
+        MenuManager.Instance.OpenMenu("MainMenu");
 
     }
 
